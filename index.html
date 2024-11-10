@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculadora de Tiempo</title>
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <h2>Calculadora de Tiempo</h2>
+    <p>Ingrese los tiempos en formato mm:ss, uno por línea:</p>
+    <textarea
+      id="timeInput"
+      placeholder="Ejemplo: 07:49
+    07:44
+    22:30
+    etc..."></textarea>
+    <button id="sumButton">Sumar Tiempos</button>
+    <h3>Resultado:</h3>
+    <p id="result">00:00:00</p>
+    <p id="error"></p>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
